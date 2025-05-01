@@ -1,0 +1,117 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.game-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px; /* Limit width */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.input-area {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block; /* Make label appear on its own line */
+    margin-bottom: 5px;
+    color: #444;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100px; /* Adjust as needed */
+    margin-right: 10px;
+    text-align: center; /* Center number inside */
+}
+
+/* Hide the default spinner arrows for number input */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+
+#restartButton {
+    margin-top: 15px;
+    background-color: #28a745; /* Green color */
+}
+
+#restartButton:hover {
+    background-color: #218838;
+}
+
+
+.feedback {
+    margin-top: 15px;
+    font-weight: bold;
+    min-height: 20px; /* Prevent layout shift when message appears */
+}
+
+.feedback.win {
+    color: #28a745; /* Green */
+}
+
+.feedback.loss {
+    color: #dc3545; /* Red */
+}
+
+.feedback.info {
+    color: #ffc107; /* Yellow/Orange */
+}
+
+.feedback.error {
+    color: #dc3545; /* Red */
+}
+
+.attempts {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #666;
+}
