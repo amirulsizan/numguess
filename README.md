@@ -20,7 +20,7 @@ This project demonstrates basic web development concepts including DOM manipulat
 
 ## Screenshot
 ![Game Screenshot]
-*(Screenshot placeholder - Add your own image for a better visual representation!)*
+![Alt text](/screenshot.png)
 
 ## How to Play (Live Version)
 
