@@ -19,7 +19,7 @@ This project demonstrates basic web development concepts including DOM manipulat
 * Responsive layout (basic).
 
 ## Screenshot
-
+![Game Screenshot]
 *(Screenshot placeholder - Add your own image for a better visual representation!)*
 
 ## How to Play (Live Version)
@@ -63,7 +63,6 @@ If you want to run the game on your local machine:
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-*(You can optionally create a file named `LICENSE` in your repository and paste the MIT License text into it)*
 
 ---
 
