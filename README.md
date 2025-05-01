@@ -5,7 +5,7 @@ A simple, classic number guessing game built with HTML, CSS, and JavaScript. The
 This project demonstrates basic web development concepts including DOM manipulation, event handling, and simple game logic.
 
 ✨ **Play the live version here!** ✨
-[https://YourUsername.github.io/YourRepositoryName/](https://YourUsername.github.io/YourRepositoryName/)
+[https://amirulsizan.github.io/numguess/](https://amirulsizan.github.io/numguess/)
 
 ## Features
 
