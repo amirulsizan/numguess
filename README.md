@@ -19,7 +19,6 @@ This project demonstrates basic web development concepts including DOM manipulat
 * Responsive layout (basic).
 
 ## Screenshot
-![Game Screenshot]
 ![Alt text](/screenshot.png)
 
 ## How to Play (Live Version)
@@ -38,12 +37,12 @@ If you want to run the game on your local machine:
 
 1.  **Clone the repository:**
     ```bash
-    # Replace YourUsername and YourRepositoryName with your actual details
-    git clone [https://github.com/YourUsername/YourRepositoryName.git](https://github.com/YourUsername/YourRepositoryName.git)
+    git clone [https://amirulsizan.github.io/numguess/](https://amirulsizan.github.io/numguess/)
+
     ```
 2.  **Navigate to the directory:**
     ```bash
-    cd YourRepositoryName
+    cd numguess
     ```
 3.  **Open the `index.html` file** in your preferred web browser (e.g., Chrome, Firefox, Edge).
 
